@@ -12,6 +12,7 @@ def main():
     #print args
 
     # Command to be run after the needed time
+    # Update your API info for this command to work.
     bashCommand = """at #REMINDER_TIME# << EOF
     curl -i --user "admin":"secret" -H "Content-Type: application/json" -X POST -d '{"order":"api-repeat-cmd #MESSAGE#"}' http://localhost:5000/order/
     EOF"""
