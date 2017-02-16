@@ -1,0 +1,10 @@
+settings.yml
+
+brains/google_calendar.yml
+brains/say.yml
+brains/eat.yml
+brains/mpd.yml
+brains/search.yml
+brains/wifi.yml
+
+resources/neurons/*

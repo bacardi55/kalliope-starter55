@@ -1,0 +1,20 @@
+---
+  - includes:
+    - brains/eat.yml
+    - brains/google_calendar.yml
+    - brains/web_scraper.yml
+    - brains/kill_switch.yml
+    - brains/kodi.yml
+    - brains/openweathermap.yml
+    - brains/say.yml
+    - brains/systemdate.yml
+    - brains/wikipedia.yml
+    - brains/default.yml
+    - brains/all.yml
+    - brains/rss_reader.yml
+    - brains/morning.yml
+    - brains/camera.yml
+    - brains/wifi.yml
+    - brains/mpd.yml
+    - brains/repeat.yml
+    - brains/reminder.yml
