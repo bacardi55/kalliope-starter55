@@ -18,3 +18,4 @@
     - brains/mpd.yml
     - brains/repeat.yml
     - brains/reminder.yml
+    - brains/status.yml
