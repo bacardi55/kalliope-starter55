@@ -31,8 +31,6 @@ def main():
         # args[3] should be always "de"
         for i in range(4, len(args)):
             message += args[i] + " "
-        #print("reminder time: %s" % reminder_time)
-        #print("message: %s" % message)
 
         # Mispelling on purpose to force right pronounciation and avoid charset issue
         end_message = "Rappel programmer dans " + args[1] + " minutes"
@@ -40,7 +38,19 @@ def main():
     # If the reminder is at a specific time
     elif args[0] == "à":
         # TODO
-        print('Le rappelle a heure précise n\'est pas disponible')
+        reminder_time = args[1]
+
+        # for "o'clock" hours, need to add 00 minute for the at command to work
+        if len(reminder_time) == 3:
+            reminder_time += "00"
+
+        # args[2] should be always "de"
+
+        for i in range(3, len(args)):
+            message += args[i] + " "
+
+        # Mispelling on purpose to force right pronounciation and avoid charset issue
+        end_message = "Rappel programmer a " + args[1]
     else:
         # TODO
         print('Erreur')
