@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# You need to have kalliope logs available. To do so, I run kalliope like this:
+# /usr/bin/python -u /usr/local/bin/kalliope start | tee -a kalliope.log
+# So that logs are still displayed on standard output and in a log file
+
+# Edit the audio variable text to use the variable as needed. Kalliope will read the content of the audio variable (output of the script)
+
 LOG_FILE="/home/pi/kalliope_config/kalliope.log"
 
 nb_trigger=$(cat "$LOG_FILE" | grep "Say something!" | wc -l)
