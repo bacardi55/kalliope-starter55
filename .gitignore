@@ -1,10 +1,15 @@
+# Ignore settings.yml - has the API credentials
 settings.yml
 
+# Ignore brain files that contains personal data
 brains/google_calendar.yml
 brains/say.yml
 brains/eat.yml
 brains/mpd.yml
 brains/search.yml
 brains/wifi.yml
+brains/gmaps.yml
 
 resources/neurons/*
+
+*.log
