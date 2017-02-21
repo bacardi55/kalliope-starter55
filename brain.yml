@@ -19,3 +19,5 @@
     - brains/repeat.yml
     - brains/reminder.yml
     - brains/status.yml
+    - brains/sleep.yml
+    - brains/gmaps.yml
