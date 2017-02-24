@@ -20,9 +20,13 @@
     {% endif %}
 
     {% if directions %} 
-        Pour se rendre à {{destination}}, il faut       :
+        Pour s'y rendre, il faut       :
         {% for direction in directions %}
             {{ direction }}
+
+
+
+
         {% endfor %}
     {% endif %}
 
