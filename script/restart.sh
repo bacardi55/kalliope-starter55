@@ -1,7 +1,8 @@
 #!/bin/sh 
 
 # Hard reset script
-
+#Kill Kalliope, mopidy, pulseaudio and previous tmux session
+#And restart everything
 
 mopidy_pid=`ps faux | grep mopidy | grep -v grep | awk '{print $2}'`
 kalliope_pid=`ps faux | grep kalliope | grep -v grep | grep -v tee | awk '{print $2}'`

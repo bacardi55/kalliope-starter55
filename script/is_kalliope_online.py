@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # coding: utf-8
 
+# Script to check if Kalliope is still available (via API).
+# If not, it will trigger a GPIO pin to switch on a led
+
 import argparse
 import requests
 import RPi.GPIO as GPIO
@@ -19,12 +22,12 @@ def main():
     }
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("-u", "--url", help="Kalliope API URL") 
-    parser.add_argument("-l", "--user", help="Kalliope API username") 
-    parser.add_argument("-p", "--password", help="Kalliope API password") 
-    parser.add_argument("-P", "--port", help="Kalliope API port", type=int) 
-    parser.add_argument("-g", "--gpio", help="Led GPIO", type=int) 
-    parser.add_argument("-s", "--statusfile", help="Led GPIO", type=int) 
+    parser.add_argument("-u", "--url", help="Kalliope API URL")
+    parser.add_argument("-l", "--user", help="Kalliope API username")
+    parser.add_argument("-p", "--password", help="Kalliope API password")
+    parser.add_argument("-P", "--port", help="Kalliope API port", type=int)
+    parser.add_argument("-g", "--gpio", help="Led GPIO", type=int)
+    parser.add_argument("-s", "--statusfile", help="Led GPIO", type=int)
     parser.add_argument("-v", "--verbose", help="Verbose mode", action="store_true")
 
     args = parser.parse_args()
