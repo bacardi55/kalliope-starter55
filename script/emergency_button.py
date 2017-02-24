@@ -15,7 +15,6 @@ while True:
     if input_state == False:
         print('Button Pressed - killing kallipe')
         status, output = commands.getstatusoutput("ssh -t pi@kalliope 'sh /home/pi/kalliope_config/script/restart.sh'")
-        print(output)
 
         # Leave time to avoid multiple trigger
         time.sleep(10)
