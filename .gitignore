@@ -10,6 +10,9 @@ brains/search.yml
 brains/wifi.yml
 brains/gmaps.yml
 
+# Private variables
+brains/private_data.yml
+
 resources/neurons/*
 
 *.log
