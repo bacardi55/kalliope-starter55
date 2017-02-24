@@ -6,7 +6,7 @@
       - say:
           message: "Récupération de la météo en cours Monsieur"
       - openweathermap:
-          api_key: "5ca3dd2ca9862075b0807d3582cddfeb"
+          api_key: "{{openweathermap_api_key}}"
           lang: "fr"
           temp_unit: "celsius"
           country: "FR"
@@ -22,7 +22,7 @@
       - say:
           message: "Récupération de la météo en cours Monsieur"
       - openweathermap:
-          api_key: "5ca3dd2ca9862075b0807d3582cddfeb"
+          api_key: "{{openweathermap_api_key}}"
           lang: "fr"
           temp_unit: "celsius"
           country: "FR"
