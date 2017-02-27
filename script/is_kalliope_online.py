@@ -16,7 +16,7 @@ def main():
         "user": "admin",
         "password": "secret",
         "port": 5000,
-        "endpoint": "/synapses",
+        "endpoint": "/",
         "GPIO": 18,
         "statusfile": "/tmp/_kalliope_status"
     }
