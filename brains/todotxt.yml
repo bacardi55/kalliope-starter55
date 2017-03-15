@@ -41,3 +41,11 @@
           project: "courses"
           say_template: "J'ai vidé la liste de course"
 
+  - name: "send-shopping-list"
+    signals:
+      - order: "envoyer la liste"
+      - order: "envoie-moi la liste"
+    neurons:
+      - script:
+          path: "script/order_grocery.sh"
+
