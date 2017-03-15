@@ -8,7 +8,6 @@ brains/eat.yml
 brains/mpd.yml
 brains/search.yml
 brains/wifi.yml
-brains/gmaps.yml
 
 script/sendmail.py
 
