@@ -13,7 +13,6 @@
     - brains/all.yml
     - brains/rss_reader.yml
     - brains/morning.yml
-    - brains/camera.yml
     - brains/wifi.yml
     - brains/mpd.yml
     - brains/repeat.yml
@@ -21,3 +20,6 @@
     - brains/status.yml
     - brains/sleep.yml
     - brains/gmaps.yml
+    - brains/todotxt.yml
+    - brains/uber.yml
+    - brains/domoticz.yml
