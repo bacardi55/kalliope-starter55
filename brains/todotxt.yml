@@ -47,5 +47,5 @@
       - order: "envoie-moi la liste"
     neurons:
       - script:
-          path: "script/order_grocery.sh"
+          path: "script/mail_grocery.sh"
 
