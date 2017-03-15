@@ -5,7 +5,6 @@
       - order: "quelle heure est-il"
     neurons:
       - systemdate:
-          tts: "voxygen"
           say_template:
             - "il est {{ hours }} heure et {{ minutes }} minute"
 
