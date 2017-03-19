@@ -77,7 +77,7 @@
       - order: "direction entre {{origin}} et {{destination}}"
     neurons:
       - gmaps:
-          gmaps_api_key: "AIzaSyAVKE0ZJjECM8Uh_YMwyGNu7SLrRMSq_ws"
+          gmaps_api_key: "{{gmaps_api_key}}"
           direction: True
           mode: "transit"
           language: "fr"
